@@ -34,7 +34,7 @@ public class MainWindow extends Application {
         stage.setScene(scene);
 
         // create a PauseTransition to delay the switch to the new window by 5 seconds
-        PauseTransition delay = new PauseTransition(Duration.seconds(5));
+        PauseTransition delay = new PauseTransition(Duration.seconds(1));
         delay.setOnFinished(event -> {
             // create a new instance of the DrawingDocs class
             DrawingDocs drawingDocs = new DrawingDocs();
